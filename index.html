@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title></title>
-</head>
-<body>
-  <video id="video" style="display: none;"></video>
-  <canvas id="background" height="600" width="800" style="display: none;"></canvas>
-  <canvas id="canvas" height="600" width="800"></canvas>
+  <head>
+    <meta charset="UTF-8">
+    <title>Web Claire</title>
+  </head>
+  <body>
+    <video id="video" style="display: none;"></video>
 
-  <script src="https://sdk.clarifai.com/js/clarifai-latest.js"></script>
-  <script src="index.js"></script>
-</body>
+    <canvas id="canvas" width="640" height="480"></canvas>
+
+    <ul id="concepts"></ul>
+
+    <script src="https://sdk.clarifai.com/js/clarifai-2.5.0.js"></script>
+    <script src="index.js"></script>
+  </body>
 </html>
